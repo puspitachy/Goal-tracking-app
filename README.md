@@ -18,7 +18,7 @@ This **Minimum Viable Product (MVP)** demonstrates how **AI can guide users thro
 
 ### 🤖 AI Assistance  
 - **AI-generated step breakdowns** when a new goal is created.  
-- **AI validation of proof** with feedback shown in the UI.  
+- **AI validation of proof** with feedback which is in progress  
 
 ---
 
