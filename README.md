@@ -1,11 +1,11 @@
-# ⛰️ Milesto (MVP): AI-Powered Goal Tracking  
+#  Milesto (MVP): AI-Powered Goal Tracking  
 
 Milesto is a **React web application** (with a Flask backend) that helps users **set goals, break them into steps, and provide proof for each completed step**.  
 This **Minimum Viable Product (MVP)** demonstrates how **AI can guide users through structured goal tracking** and keep them accountable.  
 
 ---
 
-## ✨ Current Features (MVP)  
+##  Current Features (MVP)  
 
 ### 🎯 Goal Creation  
 - Users can **enter a goal** (e.g., *Pass a Data Analyst interview*).  
