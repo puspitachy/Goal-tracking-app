@@ -1,0 +1,51 @@
+.progress-card {
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #f9fbfd;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.progress-card h3 {
+  font-size: 20px;
+  color: #1f3a60;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.progress-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.progress-card li {
+  background-color: #eef3fb;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #1f2e4a;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.progress-card li:hover {
+  background-color: #dde9f6;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.progress-card li.completed {
+  background-color: #d4edda;
+  color: #1e4620;
+}
+
+.progress-card li.completed::after {
+  content: ' ✅';
+  font-size: 16px;
+}

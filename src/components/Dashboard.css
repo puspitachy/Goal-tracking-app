@@ -1,0 +1,118 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar - Fixed width */
+.sidebar {
+  width: 230px;
+  background-color: #f1f6ff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-links li {
+  margin-bottom: 15px;
+}
+
+.sidebar-links button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+}
+
+.sidebar-links button:hover {
+  text-decoration: underline;
+}
+
+/* Main content takes remaining space */
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  overflow-y: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Goal steps row */
+.goal-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.goal-steps button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: 1px solid #333;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.goal-steps button:hover {
+  background-color: #e6f0ff;
+}
+
+/* Right panel */
+.ai-panel {
+  width: 270px;
+  background-color: #f9fbff;
+  padding: 25px;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+}
+
+.ai-panel h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.ai-panel h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.ai-panel a {
+  color: #167bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.ai-panel a:hover {
+  text-decoration: underline;
+}
